@@ -135,8 +135,8 @@ public class CommonAction {
 
 	}
 
-	@BeforeMethod
-	public void setup1() throws IOException {
+//	@BeforeMethod
+/*	public void setup1() throws IOException {
 
 		String browser = properties.getProperty("browser");
 		String un = properties.getProperty("username");
@@ -174,7 +174,7 @@ public class CommonAction {
 		// driver.quit();
 
 	}
-
+*/
 	@AfterSuite
 	public void flus() {
 

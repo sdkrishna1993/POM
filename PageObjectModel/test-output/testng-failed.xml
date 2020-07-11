@@ -3,17 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.MyAccountPage">
+      <class name="StageBaeRoad.PaymentEarnings">
         <methods>
-          <include name="setup1"/>
+          <include name="setData"/>
           <include name="flus"/>
           <include name="testDetails"/>
           <include name="extentReports"/>
-          <include name="setData"/>
-          <include name="tearDown"/>
-          <include name="myAccount"/>
+          <include name="login"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- testcases.MyAccountPage -->
+      </class> <!-- StageBaeRoad.PaymentEarnings -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
