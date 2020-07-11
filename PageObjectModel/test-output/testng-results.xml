@@ -2,24 +2,40 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4940" started-at="2020-06-28T08:08:48 IST" finished-at="2020-06-28T08:08:53 IST">
+  <suite name="Default suite" duration-ms="10147" started-at="2020-07-11T11:35:33 IST" finished-at="2020-07-11T11:35:43 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4940" started-at="2020-06-28T08:08:48 IST" finished-at="2020-06-28T08:08:53 IST">
-      <class name="SeleniumBasics.FirstSeleniumProgram">
-        <test-method status="PASS" signature="setup()[pri:0, instance:SeleniumBasics.FirstSeleniumProgram@76f2b07d]" name="setup" is-config="true" duration-ms="2448" started-at="2020-06-28T08:08:48 IST" finished-at="2020-06-28T08:08:50 IST">
+    <test name="Default test" duration-ms="10147" started-at="2020-07-11T11:35:33 IST" finished-at="2020-07-11T11:35:43 IST">
+      <class name="testcases.MyAccountPage">
+        <test-method status="PASS" signature="extentReports()[pri:0, instance:testcases.MyAccountPage@57e1b0c]" name="extentReports" is-config="true" duration-ms="261" started-at="2020-07-11T11:35:33 IST" finished-at="2020-07-11T11:35:33 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login()[pri:0, instance:SeleniumBasics.FirstSeleniumProgram@76f2b07d]" name="login" duration-ms="2234" started-at="2020-06-28T08:08:50 IST" finished-at="2020-06-28T08:08:52 IST">
+        </test-method> <!-- extentReports -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.MyAccountPage@57e1b0c]" name="setData" is-config="true" duration-ms="0" started-at="2020-07-11T11:35:33 IST" finished-at="2020-07-11T11:35:33 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumBasics.FirstSeleniumProgram@76f2b07d]" name="tearDown" is-config="true" duration-ms="204" started-at="2020-06-28T08:08:52 IST" finished-at="2020-06-28T08:08:53 IST">
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="testDetails()[pri:0, instance:testcases.MyAccountPage@57e1b0c]" name="testDetails" is-config="true" duration-ms="8" started-at="2020-07-11T11:35:33 IST" finished-at="2020-07-11T11:35:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method status="PASS" signature="setup1()[pri:0, instance:testcases.MyAccountPage@57e1b0c]" name="setup1" is-config="true" duration-ms="4966" started-at="2020-07-11T11:35:33 IST" finished-at="2020-07-11T11:35:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup1 -->
+        <test-method status="PASS" signature="myAccount()[pri:0, instance:testcases.MyAccountPage@57e1b0c]" name="myAccount" duration-ms="5134" started-at="2020-07-11T11:35:38 IST" finished-at="2020-07-11T11:35:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myAccount -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.MyAccountPage@57e1b0c]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-07-11T11:35:43 IST" finished-at="2020-07-11T11:35:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- SeleniumBasics.FirstSeleniumProgram -->
+        <test-method status="PASS" signature="flus()[pri:0, instance:testcases.MyAccountPage@57e1b0c]" name="flus" is-config="true" duration-ms="495" started-at="2020-07-11T11:35:48 IST" finished-at="2020-07-11T11:35:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flus -->
+      </class> <!-- testcases.MyAccountPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
